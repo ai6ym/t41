@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "T41")(type "KiCad")(uri "/home/justin/Projects/T41/T41 - K9HZ Github/T41_KiCad_Library/T41_Library.pretty")(options "")(descr ""))
+)
