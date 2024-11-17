@@ -1,0 +1,6 @@
+# pack-refs with: peeled fully-peeled sorted 
+4312234466cb7804eb051bde330df7dea5018b67 refs/remotes/origin/Freq_cal_bugfix
+55ca98e49b97eeea91bd7711f4f65cae0975fc00 refs/remotes/origin/V12_changes
+6f6c1eb180a8dca0421d3c2cd7f3f50daa826cb9 refs/remotes/origin/V12_pinout_support
+f21fdba4252d2e9fba9367735cfaf64dcf5b0121 refs/remotes/origin/calibration
+2f7bccf308826ce5f91d40895a645f1f4040332b refs/remotes/origin/main
