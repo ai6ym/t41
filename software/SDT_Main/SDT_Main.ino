@@ -2659,13 +2659,16 @@ void Splash() {
   tft.setTextColor(RA8875_WHITE);
   tft.setCursor((XPIXELS / 2) - (38 * tft.getFontWidth() / 2) + 15, YPIXELS / 4 + 80);  // 38 = letters in string
   tft.print("Al Peter, AC8GY     Jack Purdum, W8TEE");
-  tft.setCursor((XPIXELS / 2) - (12 * tft.getFontWidth()) / 2, YPIXELS / 2 + 110);  // 12 = letters in "Property of:"
-  tft.print("Property of:");
-  tft.setFontScale(2);
-  tft.setTextColor(RA8875_GREEN);
-  centerCall = (XPIXELS - strlen(MY_CALL) * tft.getFontWidth()) / 2;
-  tft.setCursor(centerCall, YPIXELS / 2 + 160);
-  tft.print(MY_CALL);
+
+  if (MY_CALL != "") {
+    tft.setCursor((XPIXELS / 2) - (12 * tft.getFontWidth()) / 2, YPIXELS / 2 + 110);  // 12 = letters in "Property of:"
+    tft.print("Property of:");
+    tft.setFontScale(2);
+    tft.setTextColor(RA8875_GREEN);
+    centerCall = (XPIXELS - strlen(MY_CALL) * tft.getFontWidth()) / 2;
+    tft.setCursor(centerCall, YPIXELS / 2 + 160);
+    tft.print(MY_CALL);
+  }
 
 #if defined(G0ORX_CAT)
   tft.setFontScale(1);

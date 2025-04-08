@@ -54,7 +54,7 @@
 //#define EXCLUDE_BODE
 
 // Uncomment if using G0ORX Kenwood TS-2000 CAT interface
-#define G0ORX_CAT
+// #define G0ORX_CAT
 
 // G0ORX_AUDIO_DISPLAY draws a Time Domain plot of the Microphone when transmitting
 #define G0ORX_AUDIO_DISPLAY
@@ -68,11 +68,11 @@
 #define DECODER_STATE							0						                              // 0 = off, 1 = on
 #define DEFAULT_KEYER_WPM   			15                                        // Startup value for keyer wpm
 #define FREQ_SEP_CHARACTER  			'.'					                              // Some may prefer period, space, or combo
-#define MAP_FILE_NAME   					"Cincinnati.bmp"                          // Name you gave to BMP map file. Max is 50 chars
-#define MY_LAT										39.07466                                  // Coordinates for QTH
-#define MY_LON										-84.42677
-#define MY_CALL										"AI6YM"                                   // Default max is 10 chars
-#define MY_TIMEZONE          			"PST: "                                   // Default max is 10 chars
+#define MAP_FILE_NAME   					"map.bmp"                          // Name you gave to BMP map file. Max is 50 chars
+#define MY_LAT										37.75410                                  // Coordinates for QTH
+#define MY_LON										-122.46541
+#define MY_CALL										""                                   // Default max is 10 chars
+#define MY_TIMEZONE          			"EST: "                                   // Default max is 10 chars
 //DB2OO, 29-AUG-23: TIME_24H to display 24 hour times (Utility.cpp). If this is not defined 12h display will be used
 #define TIME_24H                  1
 //DB2OO, 29-AUG-23: ITU_REGION to determine band borders: Upper band limits on 80m (3.8MHz vs 4.0MhHz) and 40m (7.2MHz vs. 7.3MHz)
